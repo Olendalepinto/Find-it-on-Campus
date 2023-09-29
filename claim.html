@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Your Item</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #CEE6F3;
+        }
+        
+        #topname {
+            display: flex;
+            width: 100vw;
+            align-items: center;
+            justify-content: center;
+            margin: 30px;
+        }
+        
+        #nielogo {
+            margin-right: 20px;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 10vh;
+        }
+        
+        .claim-page {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 800px;
+            background-color: #afdce2;
+        }
+        
+        .claim-title {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #000000;
+        }
+        
+        .search-bar {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .search-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .filter-list {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .filter-select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        .claim-list {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .claim-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        
+        .claim-image {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        
+        .claim-details {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .claim-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .claim-description {
+            color: #555;
+        }
+        
+        .claim-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .claim-buttons button {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        .claim-buttons button.details {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        .claim-buttons button.claim {
+            background-color: #e74c3c;
+            color: white;
+        }
+        
+        .claim-buttons button:hover {
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<div class="containerr" id="topname">
+    <img src="NIE.png" width="50px" id="nielogo">
+    <h1 id="h1title"><b>Find It On Campus</b></h1>
+</div>
+
+<body>
+    <div class="container">
+        <div class="claim-page">
+            <div class="claim-title">Claim Your Item</div>
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Search for an item...">
+                <button class="btn btn-success">Search</button>
+            </div>
+            <div class="filter-list">
+                <select class="filter-select">
+                    <option value="category">Category</option>
+            
+                </select>
+                <input type="text" class="filter-input" placeholder="Filter...">
+            </div>
+            <div class="claim-list">
+                <div class="claim-item">
+                    <img src="watch.jpeg" alt="Item 1" class="claim-image">
+                    <div class="claim-details">
+                        <div class="claim-name">Lost Watch</div>
+                        <div class="claim-description">Silver wristwatch found in the library.</div>
+                    </div>
+                    <div class="claim-buttons">
+                        <button class="details">Details</button>
+                        <button class="claim">Claim</button>
+                    </div>
+                </div>
+                <div class="claim-item">
+                    <img src="key.jpeg" alt="Item 1" class="claim-image">
+                    <div class="claim-details">
+                        <div class="claim-name">Lost Key</div>
+                        <div class="claim-description">Suzuki key with orange keychain.</div>
+                    </div>
+                    <div class="claim-buttons">
+                        <button class="details">Details</button>
+                        <button class="claim">Claim</button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Add more claim items here -->
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

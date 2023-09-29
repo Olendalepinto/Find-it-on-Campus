@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #CEE6F3;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        #topname {
+            display: flex;
+            width: 100vw;
+            align-items: center;
+            justify-content: center;
+            margin: 30px;
+        }
+        
+        #nielogo {
+            margin-right: 20px;
+        }
+        
+        .signup-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+        
+        .signup-container h1 {
+            margin-bottom: 20px;
+        }
+        
+        .input-field {
+            margin-bottom: 15px;
+        }
+        
+        .input-field label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .input-field input,
+        .input-field select {
+            width: 90%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .btn-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .btn-primary {
+            background-color: #007bff;
+            color: #fff;
+        }
+        
+        .btn-secondary {
+            background-color: #FF1E1E;
+            color: #fff;
+        }
+    </style>
+</head>
+<div class="container" id="topname">
+    <img src="NIE.png" width="50px" id="nielogo">
+    <h1 id="h1title"><b>Find It On Campus</b></h1>
+</div>
+
+<body>
+    <div class="signup-container">
+        <h1>Sign Up</h1>
+        <div class="input-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="input-field">
+            <label for="email">Gmail</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-field">
+            <label for="usn">USN</label>
+            <input type="text" id="usn" name="usn" required>
+        </div>
+        <div class="input-field">
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+              <option value="">-- Select --</option>     
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+        </div>
+        <div class="input-field">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="input-field">
+            <label for="college">College</label>
+            <select id="college" name="college" required>
+              
+              <option value="">-- Select --</option> 
+      <option value="nie-north">NIE North</option>
+      <option value="nie-south">NIE South</option>
+    </select>
+        </div>
+        <div class="btn-container">
+            <button class="btn btn-secondary">Cancel</button>
+            <button class="btn btn-primary">Sign Up</button>
+        </div>
+    </div>
+</body>
+
+</html>

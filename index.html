@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title id="webtitle">Find It On Campus</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        /* Add your custom CSS here */
+        
+        #navbar {
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="topname">
+        <img src="NIE.png" width="50px" id="nielogo">
+        <h1 id="h1title"><b>Find It On Campus</b></h1>
+    </div>
+    <nav class="navbar navbar-inverse" id="navbar">
+        <div class="container-fluid">
+            <!-- Add a hamburger icon and collapse menu for small screens -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <!--
+                    <li><a href="#">Lost Items</a></li>
+                    <li><a href="#">Found Items</a></li>
+                    <li><a href="#">Submit Report</a></li>-->
+                    <li><a href="login1.html">Login</a></li>
+                    <li><a href="signup.html">SignUp</a></li>
+                    <li>
+                        <a href="lost.html">Report Lost Item</a>
+                    </li>
+                    <li>
+                        <a href="report.html">Report Found Item</a>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right" action="/action_page.php">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="body1">
+
+
+        <div id="body2">
+            <h2>Welcome to Find It On Campus</h2>
+            <p>If you've lost or found an item on campus, you're in the right place. Report lost items, find found items, and connect with the campus community to retrieve your belongings.</p>
+        </div>
+        <!--
+        <div id="body3">
+            <h2>Quick Links</h2>
+            <div class="btn btn-success"><a href="login1.html" id="qlink">Login</a></div>
+            <div class="btn btn-success"><a href="signup.html" id="qlink">Signup</a></div>
+            <div class="btn btn-success"><a href="report.html" id="qlink">Report Found Item</a></div>
+        </div>--->
+        <div id="bodymid">
+            <img id="nienorth" class="campusimg" src=" nienorth.png ">
+            <img id="niesouth" class="campusimg" src="niesouth.webp ">
+        </div>
+
+    </div>
+
+    <footer class="bg-dark text-white py-5 " id="footer">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-6 ">
+                    <h3>About Us</h3>
+                    <p>We are dedicated to helping the campus community find and recover lost items quickly and efficiently.</p>
+                </div>
+                <div class="col-md-6 ">
+                    <h3>Contact Information</h3>
+                    <p><a href="https://nie.ac.in/ " id="nielink ">
+                        NIE website
+                    </a></p>
+                    <p>Email: southcampus@nie.ac.in | southcampus@nie.ac.in</p>
+                    <p>Phone: +1234567890</p>
+                    <p>Mananthvadi Main Road Mysore Karnataka</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

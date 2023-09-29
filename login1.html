@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #CEE6F3;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        #topname {
+            display: flex;
+            width: 100vw;
+            align-items: center;
+            justify-content: center;
+            margin: 50px;
+        }
+        
+        #nielogo {
+            margin-right: 20px;
+        }
+        
+        .login-container {
+            background-color: #ffffff;
+            background-color: #71c2cd;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 390px;
+            text-align: center;
+        }
+        
+        .login-container h1 {
+            margin-bottom: 20px;
+        }
+        
+        .input-field {
+            margin-bottom: 15px;
+        }
+        
+        .input-field label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .input-field input {
+            width: 90%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .btn-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .btn-primary {
+            background-color: #007bff;
+            color: #fff;
+        }
+        
+        .btn-secondary {
+            background-color: #FF1E1E;
+            color: #fff;
+        }
+        
+        .btn-link {
+            background-color: transparent;
+            color: #007bff;
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+<div class="container" id="topname">
+    <img src="NIE.png" width="50px" id="nielogo">
+    <h1 id="h1title"><b>Find It On Campus</b></h1>
+</div>
+
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <div class="input-field">
+            <label for="username">College Email</label>
+            <input type="email" id="username" name="username" required>
+        </div>
+        <div class="input-field">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="btn-container">
+            <button class="btn btn-secondary">Cancel</button>
+            <button class="btn btn-primary">Login</button>
+        </div>
+        <div class="btn-container">
+            <a href="#" class="btn btn-link">Forgot Password?</a>
+            <button class="btn btn-link"><a href="signup.html">Sign Up</a></button>
+        </div>
+    </div>
+</body>
+
+</html>

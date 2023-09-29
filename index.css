@@ -1,0 +1,55 @@
+        #topname {
+            display: flex;
+            width: 100vw;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #footer {
+            background-color: rgb(33, 33, 33);
+            color: aliceblue;
+        }
+        
+        body {
+            background-color: #CEE6F3;
+        }
+        
+        #webtitle {
+            font-family: sans-serif;
+            margin-top: 50px;
+        }
+        
+        #nielogo {
+            margin: 20px;
+        }
+        
+        #h1title {
+            margin-top: 30px;
+        }
+        
+        #nielink {
+            text-decoration: none;
+            color: white;
+        }
+        
+        #qlink {
+            text-decoration: none;
+            color: white;
+            margin: 50px;
+        }
+        
+        #body3,
+        #body2 {
+            margin: 10px;
+        }
+        
+        .campusimg {
+            width: 47%;
+            margin: 10px;
+            border-radius: 8px;
+            border: 1px solid rgba(45, 45, 45, 0.614);
+        }
+        
+        #bodymid {
+            display: flex;
+        }
